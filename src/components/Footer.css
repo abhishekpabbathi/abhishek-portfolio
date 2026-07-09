@@ -1,0 +1,8 @@
+.footer { background: var(--bg); border-top: 1px solid var(--border); padding: 36px 24px; text-align: center; position: relative; transition: background 0.4s; }
+.footer::before { content: ''; position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 200px; height: 1px; background: linear-gradient(90deg, transparent, var(--accent), var(--accent-2), transparent); }
+.footer-logo { font-family: 'Syne', sans-serif; font-size: 1.4rem; font-weight: 800; background: linear-gradient(135deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 12px; }
+.footer-links { display: flex; justify-content: center; gap: 24px; margin-bottom: 14px; }
+.footer-link { background: none; border: none; cursor: pointer; font-family: 'Outfit', sans-serif; font-size: 0.82rem; font-weight: 500; color: var(--text-muted); transition: color 0.2s; }
+.footer-link:hover { color: var(--accent); }
+.footer-copy { font-size: 0.82rem; color: var(--text-muted); }
+.footer-copy span { color: var(--accent); }
