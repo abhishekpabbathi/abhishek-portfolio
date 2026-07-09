@@ -154,7 +154,7 @@ export default function Contact({ visible }) {
                   <input
                     className="form-input"
                     name="name"
-                    placeholder="John Doe"
+                    placeholder="Your Name"
                     value={form.name}
                     onChange={handleChange}
                   />
@@ -167,7 +167,7 @@ export default function Contact({ visible }) {
                     className="form-input"
                     name="email"
                     type="email"
-                    placeholder="john@email.com"
+                    placeholder="Your Email"
                     value={form.email}
                     onChange={handleChange}
                   />
@@ -181,7 +181,7 @@ export default function Contact({ visible }) {
                 <input
                   className="form-input"
                   name="subject"
-                  placeholder="Project Collaboration"
+                  placeholder="Subject"
                   value={form.subject}
                   onChange={handleChange}
                 />
@@ -193,7 +193,7 @@ export default function Contact({ visible }) {
                 <textarea
                   className="form-input"
                   name="message"
-                  placeholder="Tell me about your project..."
+                  placeholder="Write your message..."
                   value={form.message}
                   onChange={handleChange}
                 />
